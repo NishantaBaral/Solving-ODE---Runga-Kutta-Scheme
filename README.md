@@ -11,7 +11,5 @@ $$ C = 4\sqrt{2} \int_{0}^{1} \frac{du}{\sqrt{1 - u^4}} $$
 using Gauss--Legendre quadrature (firstly by change of variables $\u = \sin\theta$. Outputs table comparing $T_{\text{RK23}}(a)$ and $T_{\text{quad}}(a)$ and their relative error (3 columns), for $a \in \{0.5, 1, 2, 4, 8\}$.
 
 stiff syste,.py integrates the stiff system, using the Heun integration scheme,
-    \[
-    \dot x_1 = -2x_1-\dfrac{x_1^2}{1+x_2^4}, \quad \dot x_2 = -30x_2-\dfrac{x_2^2}{1+x_1^4}, \quad x(0)=(1,1).
-    \]
+$\dot x_1 = -2x_1-\dfrac{x_1^2}{1+x_2^4}, \quad \dot x_2 = -30x_2-\dfrac{x_2^2}{1+x_1^4}, \quad x(0)=(1,1).$
 
